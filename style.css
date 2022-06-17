@@ -1,0 +1,68 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(IMG_20220530_014916_351.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first-flex{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.left-details{
+    color: white;
+    margin-top: 350px ;
+    margin-left : 220px ;
+}
+.left-details h2{
+    color:#0adab9;
+    font-size: 40px;
+}
+.left-details h1{
+    font-size: 77px;
+}
+.left-details h2,h1{
+    line-height: 10px;
+}
+.left-details p{
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 80px;
+}
+.see-more{
+    text-decoration: none;
+    font-size: 20px;
+    border: 3px solid white;
+    padding: 10px 40px;
+    border-radius: 80px;
+    color:white;
+}
+.logo{
+    padding-left: 220px;
+}
+.logo img{
+    width: 70px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.middle-part{
+    color: white;
+    margin-top: 300px;
+    margin-left: 270px;
+    font-size: 25px;
+    font-style: italic;
+    line-height: 20px;
+}
+.social-media{
+    font-size: 100px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    float: right;
+}
+.social-media a{
+    margin-right: 20px;
+    line-height: -90px;
+}
